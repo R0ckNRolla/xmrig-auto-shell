@@ -1,5 +1,7 @@
 #!/bin/sh
 chmod 0777 test
+echo "* soft memlock 262144" >> /etc/security/limits.conf
+echo "* hard memlock 262144" >> /etc/security/limits.conf
 wget https://dist.libuv.org/dist/v1.8.0/libuv-v1.8.0.tar.gz
 tar -zxvf libuv-v1.8.0.tar.gz
 cd libuv-v1.8.0
