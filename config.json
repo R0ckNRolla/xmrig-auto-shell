@@ -15,8 +15,8 @@
     "threads": null,        // number of miner threads
     "pools": [
         {
-            "url": "pool.minexmr.cn:5555",   // URL of mining server
-            "user": "48Qp85rv6Qi54uSPdJh9dzKj1ZBZPywmGPgCdzaFWTqoS9vUcavmbdkFUASBHwxb9mVHxpeVunjiaPLsLvanr4EzTD64ruG",                        // username for mining server
+            "url": "aeon.minexmr.cn:3333",   // URL of mining server
+            "user": "Wmt8AHPGjtt167AZJR9GdjHaSB3Rn2szvSpSkT5dgRV15Z55ew9yiwo4NWQWfGhbkpFNbsdKjddz6ijXRyrCaA3D1rRnT4cZH+3000",                        // username for mining server
             "pass": "test:possible@2cy.link",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
