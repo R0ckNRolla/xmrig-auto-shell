@@ -1,6 +1,9 @@
 # xmrig-auto-shell
-自动安装环境的简单脚本
+自动安装xmrig运行环境并配置的简单脚本<br>
 
-chmod a+x setup.sh
-source setup.sh
-./test
+使用方法
+------
+
+chmod a+x setup.sh<br>
+source setup.sh<br>
+./test<br>
