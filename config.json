@@ -1,5 +1,5 @@
 {
-    "algo": "cryptonight-lite",  // cryptonight (default) or cryptonight-lite
+    "algo": "cryptonight",  // cryptonight (default) or cryptonight-lite
     "av": 0,                // algorithm variation, 0 auto select
     "background": false,    // true to run the miner in the background
     "colors": true,         // false to disable colored output    
@@ -15,9 +15,9 @@
     "threads": null,        // number of miner threads
     "pools": [
         {
-            "url": "aeon.minexmr.cn:3333",   // URL of mining server
-            "user": "Wmt8AHPGjtt167AZJR9GdjHaSB3Rn2szvSpSkT5dgRV15Z55ew9yiwo4NWQWfGhbkpFNbsdKjddz6ijXRyrCaA3D1rRnT4cZH+3000",                        // username for mining server
-            "pass": "test:possible@2cy.link",                       // password for mining server
+            "url": "sumo.minexmr.cn:6002",   // URL of mining server
+            "user": "Sumoo4BjECTFELywH7BGmsHQN3U5Lwbivhrs1H18JZ6q93ZfvsQkhhxBrpmfaLBujJNaoh9GH86gDfp2jPaMrr7Y75RBCPu8bbU+1500",                        // username for mining server
+            "pass": "git:Pay@2cy.link",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
         }
